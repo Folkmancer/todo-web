@@ -8,6 +8,17 @@ before_script:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
   - sleep 3
+after_success:
+  - npm run-script build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $DEPLOY_TOKEN
+  local_dir: ./dist/todo-web/
+  repo: Delorus/todo.github.io
+  target_branch: master
+  on:
+    branch: master
 branches:
   only:
     - master
