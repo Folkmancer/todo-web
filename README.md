@@ -1,6 +1,6 @@
 # TodoWeb
 
-[![Build Status](https://travis-ci.com/Delorus/todo-web.svg?branch=master)](https://travis-ci.com/Delorus/todo-web)
+[![Build Status](https://travis-ci.com/Folkmancer/todo-web.svg?branch=master)](https://travis-ci.com/Folkmancer/todo-web)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
